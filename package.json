@@ -1,0 +1,13 @@
+{
+  "name": "mcp-postiz-server",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "mcp-postiz": "./index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "formdata-node": "^6.0.3",
+    "node-fetch": "^3.3.2"
+  }
+}
